@@ -6,6 +6,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+//Parameters using Route
+Route::get('/portfolio', function () {
+    return view('portfolio');
 });
