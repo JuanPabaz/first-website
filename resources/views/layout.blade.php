@@ -15,7 +15,7 @@
                     <img src="{{ asset('images/image.png') }}" alt="">
                 </div>
                 <div class="navbar-menu">
-                    <a href="">Inicio</a>
+                    <a href="{{ route("inicio") }}">Inicio</a>
                     <a href="">Quiénes somos</a>
                     <a href="">Servicios</a>
                 </div>
@@ -25,6 +25,9 @@
             </div>
         </div>
     </header>
+    <main>
+        @yield('content')
+    </main>
     
 </body>
 </html>
