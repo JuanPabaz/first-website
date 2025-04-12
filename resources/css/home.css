@@ -1,0 +1,46 @@
+.home-container{
+    display: flex;
+    gap: 2%;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    width: 50%;
+}
+
+.home-content h1{
+    font-size: 50px;
+    width: 60%;
+    margin: 0;
+    color: #07401f;
+    font-weight: bold;
+}
+
+.home-content p{
+    width: 75%;
+}
+
+.home-content-buttons{
+    display: flex;
+    gap: 5%;
+}
+
+.home-content-buttons button{
+    border-radius: 5px;
+    background-color: #e7b109;
+    color: #07401f;
+    border: 0;
+    padding: 0 15px;
+    font-weight:600;
+}
+
+.home-image{
+    width: 50%;
+}
+
+.home-image img{
+    width: 100%;
+    height: 30rem;
+}
