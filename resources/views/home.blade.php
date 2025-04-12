@@ -1,13 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    @vite('resources/css/app.css')
-</head>
-<body>
-    <img style="height: 100vh; width: 100vw; object-fit:cover" src="{{ asset('images/vuotta-logo.png') }}" alt="Mi imagen">
-    <a href="{{ route("testPage") }}">Go to test page</a>
-</body>
-</html>
+@vite('resources/css/home.css')
+@extends('layout')
+
+@section('content')
+<div class="home-container">
+    <div class="home-content">
+        <h1>Creando historias, contando historias.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Nemo necessitatibus, facere laborum officiis voluptatibus 
+            ut iure provident ex praesentium et! Dolor natus quo 
+            accusantium nesciunt deserunt officia fugiat eius veritatis?
+        </p>
+        <div class="home-content-buttons">
+            <button>Escribenos</button>
+            <button>Siguenos</button>
+        </div>
+    </div>
+    <div class="home-image">
+        <img src="{{ asset('images/project-vuotta.jpeg') }}" alt="">
+    </div>
+</div>
+@endsection
