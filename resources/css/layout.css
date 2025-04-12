@@ -1,14 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     width: 100%;
     background-color: #07401f;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    height: 10vh; /* Altura fija de 5vh */
+    height: 10vh;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-    display: flex; /* Añadido para centrado vertical */
-    align-items: center; /* Centrado vertical */
+    display: flex;
+    align-items: center;
 }
 
 .navbar-container {
@@ -28,7 +36,6 @@ header {
 
 .navbar-logo {
     display: inline-block;
-    height: 100%;
     padding: 0;
     margin: 0;
     line-height: 0;
@@ -57,7 +64,6 @@ header {
     border-radius: 4px;
     box-sizing: border-box;
     border: 2px solid transparent;
-    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -79,7 +85,15 @@ header {
     text-decoration: none;
     padding: 0 15px;
     border-radius: 4px;
-    height: 80%;
     display: flex;
     align-items: center;
+}
+
+main {
+    margin-top: 10vh;
+    padding: 7.5rem 5rem;
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(246 239 229);
 }
