@@ -7,6 +7,7 @@
     @vite('resources/css/app.css')
 </head>
 <body>
-    <h1>Home</h1>
+    <img style="height: 100vh; width: 100vw; object-fit:cover" src="{{ asset('images/vuotta-logo.png') }}" alt="Mi imagen">
+    <a href="{{ route("testPage") }}">Go to test page</a>
 </body>
 </html>

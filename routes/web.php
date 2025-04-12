@@ -10,3 +10,8 @@ Route::get('/', function () {
 Route::get('/portfolio/{firstname}/{lastname}', function ($firstname, $lastname) {
     return $firstname . " " . $lastname;
 });
+
+//Named routes
+Route::get('/test', function () {
+    return "This is a test!";
+})->name("testPage");
