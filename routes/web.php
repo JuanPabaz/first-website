@@ -7,6 +7,6 @@ Route::get('/', function () {
 });
 
 //Parameters using Route
-Route::get('/portfolio', function () {
-    return view('portfolio');
+Route::get('/portfolio/{firstname}/{lastname}', function ($firstname, $lastname) {
+    return $firstname . " " . $lastname;
 });
