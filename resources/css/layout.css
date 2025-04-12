@@ -1,0 +1,85 @@
+header {
+    width: 100%;
+    background-color: #07401f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 10vh; /* Altura fija de 5vh */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex; /* Añadido para centrado vertical */
+    align-items: center; /* Centrado vertical */
+}
+
+.navbar-container {
+    max-width: 90%;
+    width: 100%; /* Añadido para mejor control */
+    margin: 0 auto;
+    padding: 0 1rem; /* Movemos el padding aquí en lugar del header */
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-logo {
+    display: inline-block;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.navbar-logo img {
+    height: 100%;
+    width: auto;
+    max-height: 5vh;
+    object-fit: contain;
+    display: block;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar-menu a {
+    color: #e7b109;
+    text-decoration: none;
+    padding: 0 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu a:hover {
+    color: #07401f;
+    background-color: #e7b109;
+}
+
+.cotizar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cotizar a {
+    color: #07401f;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    border-radius: 4px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
