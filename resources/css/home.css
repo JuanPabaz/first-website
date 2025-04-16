@@ -32,6 +32,7 @@
     background-color: #e7b109;
     color: #07401f;
     border: 0;
+    cursor: pointer;
     padding: 0 15px;
     font-weight:600;
 }
