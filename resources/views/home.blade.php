@@ -4,15 +4,14 @@
 @section('content')
 <div class="home-container">
     <div class="home-content">
-        <h1>Creando historias, contando historias.</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Nemo necessitatibus, facere laborum officiis voluptatibus 
-            ut iure provident ex praesentium et! Dolor natus quo 
-            accusantium nesciunt deserunt officia fugiat eius veritatis?
+        <h1>Diseñando historias, construyendo sueños.</h1>
+        <p>Somos un equipo joven que transforma ideas en proyectos reales,
+            acompañándote de pricipio a fin para construir sueños que se 
+            viven.
         </p>
         <div class="home-content-buttons">
-            <button>Escribenos</button>
-            <button>Siguenos</button>
+            <button class="projects-button">Proyectos 360</button>
+            <button class="cotizar-button">¡Quiero cotizar!</button>
         </div>
     </div>
     <div class="home-image">
