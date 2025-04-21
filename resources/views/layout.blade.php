@@ -12,15 +12,14 @@
     <header>
         <div class="navbar-container">
             <div class="navbar">
-                <div class="navbar-logo">
-                    <img src="{{ asset('images/image.png') }}" alt="">
-                </div>
                 <div class="navbar-menu">
                     <a href="{{ route("inicio") }}">Inicio</a>
-                    <a href="">Quiénes somos</a>
                     <a href="">Servicios</a>
+                    <a href="">Quiénes somos</a>
+                    <a href="">Proyectos</a>
                 </div>
                 <div class="cotizar">
+                    <a href="">Contactanos</a>
                     <a href="">Cotizar aquí</a>
                 </div>
             </div>
