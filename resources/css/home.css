@@ -1,12 +1,13 @@
 .home-container{
     display: flex;
-    gap: 2%;
+    height: 80vh;
 }
 
 .home-content{
     display: flex;
     flex-direction: column;
-    gap: 2%;
+    gap: 24px;
+    padding: 2rem 1rem;
     width: 50%;
 }
 
@@ -15,26 +16,47 @@
     width: 60%;
     margin: 0;
     color: #07401f;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .home-content p{
     width: 75%;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
 }
 
 .home-content-buttons{
     display: flex;
-    gap: 5%;
+    gap: 12px;
 }
 
-.home-content-buttons button{
-    border-radius: 5px;
-    background-color: #e7b109;
-    color: #07401f;
+.projects-button{
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #FFFFFF;
+    color: #344054;
     border: 0;
     cursor: pointer;
-    padding: 0 15px;
+    padding: 16 22px;
+    width: 40%;
     font-weight:600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.cotizar-button{
+    border-radius: 8px;
+    background-color: #e7b109;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    padding: 16 22px;
+    width: 30%;
+    font-weight:600;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .home-image{
@@ -43,5 +65,6 @@
 
 .home-image img{
     width: 100%;
-    height: 30rem;
+    height: 100%;
+    border-radius: 160px 0px 0px 0px;
 }
