@@ -14,5 +14,71 @@
             itaque repudiandae ab adipisci repellendus fugiat dolor?
         </p>
     </div>
+    <div class="services">
+        <div class="service">
+            <div class="service-content">
+                <h2 class="service-title">Diseño interior</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Voluptatum rem nulla eaque corporis temporibus quisquam 
+                </p>
+                <div class="service-buttons">
+                    <button class="know-more-button">Conoce más</button>
+                    <button class="cotizar-service-button">Cotizar</button>
+                </div>
+            </div>
+            <div class="service-img">
+                <img src="{{ asset('images/service-img.jpg') }}" alt="">
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-content">
+                <h2 class="service-title">Diseño comercial</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Voluptatum rem nulla eaque corporis temporibus quisquam 
+                </p>
+                <div class="service-buttons">
+                    <button class="know-more-button">Conoce más</button>
+                    <button class="cotizar-service-button">Cotizar</button>
+                </div>
+            </div>
+            <div class="service-img">
+                <img src="{{ asset('images/service-img.jpg') }}" alt="">
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-content">
+                <h2 class="service-title">Diseño arquitectónico</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Voluptatum rem nulla eaque corporis temporibus quisquam 
+                </p>
+                <div class="service-buttons">
+                    <button class="know-more-button">Conoce más</button>
+                    <button class="cotizar-service-button">Cotizar</button>
+                </div>
+            </div>
+            <div class="service-img">
+                <img src="{{ asset('images/service-img.jpg') }}" alt="">
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-content">
+                <h2 class="service-title">Renderización y modelado 3D</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Voluptatum rem nulla eaque corporis temporibus quisquam 
+                </p>
+                <div class="service-buttons">
+                    <button class="know-more-button">Conoce más</button>
+                    <button class="cotizar-service-button">Cotizar</button>
+                </div>
+            </div>
+            <div class="service-img">
+                <img src="{{ asset('images/service-img.jpg') }}" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 @endsection
