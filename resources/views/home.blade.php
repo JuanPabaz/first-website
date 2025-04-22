@@ -43,5 +43,40 @@
             </div>
         </div>
     </div>
+    <div class="projects">
+        <div class="project-details">
+            <img src="{{ asset('images/proyecto1.png') }}" alt="">
+            <p class="project-date">20 Ene 2024</p>
+            <h4 class="project-title">Alto de palmas</h4>
+            <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptates ipsa asperiores, illo nemo, culpa illum nam, 
+                maxime expedita quos nesciunt enim unde voluptatibus 
+                dignissimos temporibus facilis fugit veniam adipisci architecto?
+            </p>
+        </div>
+        <div class="project-details">
+            <img src="{{ asset('images/proyecto2.png') }}" alt="">
+            <p class="project-date">19 Ene 2024</p>
+            <h4 class="project-title">Cuarzo Tierra Firme</h4>
+            <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptates ipsa asperiores, illo nemo, culpa illum nam, 
+                maxime expedita quos nesciunt enim unde voluptatibus 
+                dignissimos temporibus facilis fugit veniam adipisci architecto?
+            </p>
+        </div>
+        <div class="project-details">
+            <img src="{{ asset('images/proyecto3.png') }}" alt="">
+            <p class="project-date">18 Ene 2024</p>
+            <h4 class="project-title">Burbuja Joy Bakery</h4>
+            <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptates ipsa asperiores, illo nemo, culpa illum nam, 
+                maxime expedita quos nesciunt enim unde voluptatibus 
+                dignissimos temporibus facilis fugit veniam adipisci architecto?
+            </p>
+        </div>
+    </div>
 </div>
 @endsection
