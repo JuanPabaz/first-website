@@ -1,4 +1,5 @@
 @vite('resources/css/home.css')
+@vite('resources/js/home.js')
 @extends('layout')
 
 @section('content')
@@ -84,7 +85,7 @@
     <div class="questions-section">
         <div class="questions-section-title">
             <h5>Preguntas frecuentes</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                 Accusantium veniam nisi dolorum cumque et, doloribus sed? 
                 At nulla corporis eveniet rem. Tempora beatae modi facere
                 illo eos necessitatibus facilis excepturi.
@@ -92,48 +93,54 @@
         </div>
         <div class="questions">
             <div class="question">
+                <i class="fa-solid fa-circle-plus plus-icon"></i>
                 <h6 class="question-title">¿Cómo puedo pagar?</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="question-answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora nesciunt sunt pariatur vel excepturi doloremque 
                     beatae sequi, odio tempore ullam dolore alias neque enim 
                     iste vitae error architecto ipsum veritatis.
                 </p>
             </div>
             <div class="question">
+                <i class="fa-solid fa-circle-plus plus-icon"></i>
                 <h6 class="question-title">¿Cómo se cuánto cuesta mi diseño?</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="question-answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora nesciunt sunt pariatur vel excepturi doloremque 
                     beatae sequi, odio tempore ullam dolore alias neque enim 
                     iste vitae error architecto ipsum veritatis.
                 </p>
             </div>
             <div class="question">
+                <i class="fa-solid fa-circle-plus plus-icon"></i>
                 <h6 class="question-title">¿Puedo cancelar mi diseño?</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="question-answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora nesciunt sunt pariatur vel excepturi doloremque 
                     beatae sequi, odio tempore ullam dolore alias neque enim 
                     iste vitae error architecto ipsum veritatis.
                 </p>
             </div>
             <div class="question">
+                <i class="fa-solid fa-circle-plus plus-icon"></i>
                 <h6 class="question-title">¿Cuáles son los requisitos para obra?</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="question-answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora nesciunt sunt pariatur vel excepturi doloremque 
                     beatae sequi, odio tempore ullam dolore alias neque enim 
                     iste vitae error architecto ipsum veritatis.
                 </p>
             </div>
             <div class="question">
+                <i class="fa-solid fa-circle-plus plus-icon"></i>
                 <h6 class="question-title">¿Puedo hacer acuerdos de pago?</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="question-answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora nesciunt sunt pariatur vel excepturi doloremque 
                     beatae sequi, odio tempore ullam dolore alias neque enim 
                     iste vitae error architecto ipsum veritatis.
                 </p>
             </div>
             <div class="question">
+                <i class="fa-solid fa-circle-plus plus-icon"></i>
                 <h6 class="question-title">¿Cuáles son los tiempos de entrega?</h6>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <p class="question-answer hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Tempora nesciunt sunt pariatur vel excepturi doloremque 
                     beatae sequi, odio tempore ullam dolore alias neque enim 
                     iste vitae error architecto ipsum veritatis.
