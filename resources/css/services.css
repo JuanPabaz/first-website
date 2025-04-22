@@ -1,0 +1,42 @@
+.services-container{
+    padding: 3.5rem 0;
+}
+
+.services-prelude{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 14rem;
+}
+
+.service-prelude-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.service-prelude-title p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7B109;
+    margin: 0;
+}
+
+.service-prelude-title h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+    color: #07401F;
+}
+
+.services-prelude p{
+    margin: 0;
+    text-align: center;
+}
+
