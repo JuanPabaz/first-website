@@ -208,3 +208,41 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+.questions-section{
+    padding: 6rem 12rem 6rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.questions-section-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questions-section-title h5{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0px;
+}
+
+.questions-section-title p{
+    text-align: center;
+}
+
+.questions{
+    gap: 16px;
+}
+
+.question-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px;
+}
