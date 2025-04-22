@@ -14,4 +14,7 @@ Route::get('/services', function () {
     return view('services');
 })->name("servicios");
 
+Route::get('/us', function () {
+    return view('us');
+})->name("somos");
 
