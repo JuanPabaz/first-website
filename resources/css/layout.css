@@ -60,7 +60,10 @@ header {
 }
 
 .navbar-menu a {
-    color: #e7b109;
+    color: #475467;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     text-decoration: none;
     padding: 0 15px;
     border-radius: 4px;
