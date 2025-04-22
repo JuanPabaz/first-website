@@ -15,7 +15,7 @@
             <div class="navbar">
                 <div class="navbar-menu">
                     <a href="{{ route("inicio") }}">Inicio</a>
-                    <a href="">Servicios</a>
+                    <a href="{{ route("servicios") }}">Servicios</a>
                     <a href="">Quiénes somos</a>
                     <a href="">Proyectos</a>
                 </div>
