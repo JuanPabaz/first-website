@@ -99,3 +99,72 @@ main {
     width: 100%;
     box-sizing: border-box;
 }
+
+footer{
+    background-color: #07401f;
+    padding: 2rem 7rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-head h6{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.footer-head p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-content-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.projects-button{
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background-color: #FFFFFF;
+    color: #344054;
+    cursor: pointer;
+    padding: 12px 18px;
+    width: 20%;
+    font-weight:600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cotizar-button{
+    border-radius: 8px;
+    background-color: #e7b109;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    padding: 12px 18px;
+    width: 15%;
+    font-weight:600;
+    font-size: 16px;
+    line-height: 24px;
+}
