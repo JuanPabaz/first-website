@@ -1,0 +1,152 @@
+.us-title{
+    background-color: #07401f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 6rem;
+}
+
+.us-title-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.us-subtitle{
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.us-title-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #E7B109;
+    margin: 0 0 24px 0;
+}
+
+.us-title-description{
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.us-content{
+    padding: 6rem 9rem;
+}
+
+.features-section{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 0rem 0rem 6rem 0;
+}
+
+.feature{
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.feature-content h3{
+    margin: 0;
+    text-align: center;
+}
+
+.feature-content p{
+    margin: 0;
+    text-align: center;
+}
+
+.who-are-we-prelude{
+    padding: 6rem 10rem 4rem 10rem;
+    text-align: center;
+}
+
+.who-are-we-prelude-subtitle{
+    margin: 0 0 12px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7B109;
+}
+
+.who-are-we-prelude-title{
+    margin: 0 0 24px 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #07401f;
+}
+
+.team{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.team-member{
+    background-color: #F9FAFB;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 1.5rem;
+}
+
+.team-member img{
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+}
+
+.team-member-details{
+    text-align: center;
+}
+
+.team-member-name{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+
+.team-member-role{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #004EEB;
+}
+
+.team-member-studies{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+}
