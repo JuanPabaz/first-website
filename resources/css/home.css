@@ -33,6 +33,10 @@
 }
 
 .projects-button{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;    
     border-radius: 8px;
     border: 1px solid #D0D5DD;
     background-color: #FFFFFF;
@@ -240,9 +244,35 @@
     gap: 16px;
 }
 
+.question{
+    padding: 30px 34px;
+    position: relative;
+}
+
+.plus-icon{
+    position: absolute;
+    top: 37px;
+    left: 10px;
+    cursor: pointer;
+}
+
 .question-title{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     margin: 0px;
 }
+
+.hidden {
+    display: none;
+}
+
+.question {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 40px;
+    width: 40rem;
+}
+
