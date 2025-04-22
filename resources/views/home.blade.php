@@ -32,5 +32,16 @@
 
         </div>
     </div>
+    <div class="project-prelude">
+        <p class="project-prelude-title">Proyectos</p>
+        <div class="project-prelude-content">
+            <h3>Un vistazo a lo que podemos crear juntos</h3>
+            <div style="display: flex; justify-content:center; align-items:center">
+                <p>Cada espacio cuenta una historia. Aquí te mostramos cómo
+                    convertimos ideas en experiencias reales, únicas y funcionales.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 @endsection

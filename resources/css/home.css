@@ -74,7 +74,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 6rem 0rem;
+    padding: 6rem 0rem 0rem 0rem;
     gap: 32px;
 }
 
@@ -131,4 +131,38 @@
     font-size: 16px;
     line-height: 24px;
     color: #475467;
+}
+
+.project-prelude{
+    padding: 6rem 0rem 0rem 0rem;
+}
+
+.project-prelude-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #e7b109;
+}
+
+.project-prelude-content{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.project-prelude-content h3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0;
+    padding: 0rem 1rem 0rem 0rem;
+    width: 150%;
+}
+
+.project-prelude-content p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
+    margin: 0px;
 }
