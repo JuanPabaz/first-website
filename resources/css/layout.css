@@ -85,12 +85,23 @@ header {
     align-items: center;
 }
 
-.cotizar a {
-    color: #07401f;
-    background-color: #fff;
+.contact-link{
+    color: #475467;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     text-decoration: none;
-    padding: 0 15px;
-    border-radius: 4px;
+}
+
+.cotizar-link {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #e7b109;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
 }

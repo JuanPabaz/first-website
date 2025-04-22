@@ -20,8 +20,8 @@
                     <a href="">Proyectos</a>
                 </div>
                 <div class="cotizar">
-                    <a href="">Contactanos</a>
-                    <a href="">Cotizar aquí</a>
+                    <a class="contact-link" href="">Contactanos</a>
+                    <a class="cotizar-link" href="">Cotizar aquí</a>
                 </div>
             </div>
         </div>
