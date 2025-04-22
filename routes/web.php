@@ -10,4 +10,8 @@ Route::get('/home', function () {
     return view('home');
 })->name("inicio");
 
+Route::get('/services', function () {
+    return view('services');
+})->name("servicios");
+
 
