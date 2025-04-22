@@ -28,6 +28,18 @@
     <main>
         @yield('content')
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-head">
+                <h6>Creemos sueños juntos</h6>
+                <p>Escribenos y cotiza este proyecto</p>
+                <div class="footer-content-buttons">
+                    <button class="projects-button">Visualización 360</button>
+                    <button class="cotizar-button">¡Quiero cotizar!</button>
+                </div>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
