@@ -11,7 +11,10 @@
                 viven.
             </p>
             <div class="home-content-buttons">
-                <button class="projects-button">Proyectos 360</button>
+                <button class="projects-button">
+                    <i class="fa-regular fa-circle-play"></i>
+                    Proyectos 360
+                </button>
                 <button class="cotizar-button">¡Quiero cotizar!</button>
             </div>
         </div>
