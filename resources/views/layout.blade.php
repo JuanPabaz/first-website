@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     @vite('resources/css/layout.css')
     <title>Vuotta</title>
 </head>
@@ -34,8 +35,8 @@
                 <h6>Creemos sueños juntos</h6>
                 <p>Escribenos y cotiza este proyecto</p>
                 <div class="footer-content-buttons">
-                    <button class="projects-button">Visualización 360</button>
-                    <button class="cotizar-button">¡Quiero cotizar!</button>
+                    <button class="visualization-button">Visualización 360</button>
+                    <button class="cotizar-footer-button">¡Quiero cotizar!</button>
                 </div>
             </div>
         </div>
