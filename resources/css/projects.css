@@ -44,6 +44,38 @@
     flex-direction: column;
 }
 
+.inputs{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.email-input{
+    padding: 12px 18px;
+    border-radius: 8px;
+    width: 314px;
+    border: 1px solid #D0D5DD;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: 24px;
+    height: 48px;
+}
+
+.projects-cotizar-button{
+    border-radius: 8px;
+    background-color: #e7b109;
+    color: #FFFFFF;
+    border: 0;
+    cursor: pointer;
+    padding: 12px 18px;
+    width: 40%;
+    height: 48px;
+    font-weight:600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .privacy-policy{
     font-weight: 400;
     font-size: 14px;

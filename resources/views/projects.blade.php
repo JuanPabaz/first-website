@@ -9,9 +9,9 @@
         <p class="header-description">No diseñamos paredes, diseñamos momentos.</p>
         <p class="header-description">No construimos estructuras, construimos sueños.</p>
         <div class="header-actions">
-            <div>
-                <input type="text" placeholder="Ingresa tu correo">
-                <button>Quiero cotizar</button>
+            <div class="inputs">
+                <input class="email-input" type="text" placeholder="Ingresa tu correo">
+                <button class="projects-cotizar-button">Quiero cotizar</button>
             </div>
             <p class="privacy-policy">We care about your date in our <a href="">privacy policy</a></p>
         </div>
