@@ -1,0 +1,32 @@
+.project-header{
+    background-color: #07401F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5rem 7rem;
+}
+
+.header-subtitle{
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header-title{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.header-description{
+    margin: 0;
+}
+
+.header-actions{
+    margin-top: 3rem;
+}
