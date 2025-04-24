@@ -9,6 +9,7 @@
     flex-direction: column;
     padding: 6rem 9rem;
     position: relative;
+    z-index: 1;
 }
 
 .header-subtitle{
@@ -57,13 +58,14 @@
     color: #FFFFFF;
 }
 
-.projects{
+.projects {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
     padding: 0rem 9rem 5rem 9rem;
     position: relative;
-    top: -36px;
+    margin-top: -64px;
+    z-index: 2;
 }
 
 .project-details{
