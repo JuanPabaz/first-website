@@ -18,3 +18,6 @@ Route::get('/us', function () {
     return view('us');
 })->name("somos");
 
+Route::get('/projects', function () {
+    return view('projects');
+})->name("proyectos");

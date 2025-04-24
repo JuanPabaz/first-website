@@ -17,7 +17,7 @@
                     <a href="{{ route("inicio") }}">Inicio</a>
                     <a href="{{ route("servicios") }}">Servicios</a>
                     <a href="{{ route("somos") }}">Quiénes somos</a>
-                    <a href="">Proyectos</a>
+                    <a href="{{ route("proyectos") }}">Proyectos</a>
                 </div>
                 <div class="cotizar">
                     <a class="contact-link" href="">Contactanos</a>
