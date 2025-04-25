@@ -1,14 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
 
 Route::get('/', function () {
     return view('layout');
 });
 
-Route::get('/home', function () {
-    return view('home');
-})->name("inicio");
+Route::get('/home', [ProjectController::class, 'index'])->name("inicio");
 
 Route::get('/services', function () {
     return view('services');
