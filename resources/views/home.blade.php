@@ -48,39 +48,16 @@
         </div>
     </div>
     <div class="projects">
+        @foreach($project as $project)
         <div class="project-details">
-            <img src="{{ asset('images/proyecto1.png') }}" alt="">
-            <p class="project-date">20 Ene 2024</p>
-            <h4 class="project-title">Alto de palmas</h4>
+            <img src="{{ asset('images/' . $project->img) }}" alt="{{ $project->name }}">
+            <p class="project-date">{{ \Carbon\Carbon::parse($project->date)->format('d M Y') }}</p>
+            <h4 class="project-title">{{ $project->name }}</h4>
             <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Voluptates ipsa asperiores, illo nemo, culpa illum nam, 
-                maxime expedita quos nesciunt enim unde voluptatibus 
-                dignissimos temporibus facilis fugit veniam adipisci architecto?
+                {{ $project->description }}
             </p>
         </div>
-        <div class="project-details">
-            <img src="{{ asset('images/proyecto2.png') }}" alt="">
-            <p class="project-date">19 Ene 2024</p>
-            <h4 class="project-title">Cuarzo Tierra Firme</h4>
-            <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Voluptates ipsa asperiores, illo nemo, culpa illum nam, 
-                maxime expedita quos nesciunt enim unde voluptatibus 
-                dignissimos temporibus facilis fugit veniam adipisci architecto?
-            </p>
-        </div>
-        <div class="project-details">
-            <img src="{{ asset('images/proyecto3.png') }}" alt="">
-            <p class="project-date">18 Ene 2024</p>
-            <h4 class="project-title">Burbuja Joy Bakery</h4>
-            <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Voluptates ipsa asperiores, illo nemo, culpa illum nam, 
-                maxime expedita quos nesciunt enim unde voluptatibus 
-                dignissimos temporibus facilis fugit veniam adipisci architecto?
-            </p>
-        </div>
+        @endforeach
     </div>
     <div class="questions-section">
         <div class="questions-section-title">
