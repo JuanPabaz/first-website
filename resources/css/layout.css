@@ -181,3 +181,59 @@ footer{
     font-size: 16px;
     line-height: 24px;
 }
+
+.navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #475467;
+}
+
+@media (max-width: 768px) {
+    .navbar-container{
+        padding: 0;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        padding: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-menu.show {
+        display: flex;
+    }
+
+    .cotizar {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    footer{
+        padding: 1.5rem;
+    }
+
+    .footer-content-buttons{
+        flex-direction: column;
+    }
+
+    .visualization-button{
+        width: 100%;
+    }
+
+    .cotizar-footer-button{
+        width: 100%;
+    }
+}
+
