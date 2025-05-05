@@ -1,4 +1,4 @@
 document.getElementById('navbarToggle').addEventListener('click', function () {
-    const menu = document.querySelector('.navbar-menu');
-    menu.classList.toggle('show');
+    const menuWrapper = document.querySelector('.navbar-menu-wrapper');
+    menuWrapper.classList.toggle('show');
 });

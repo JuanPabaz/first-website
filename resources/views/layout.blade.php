@@ -14,19 +14,22 @@
     <header>
         <div class="navbar-container">
             <div class="navbar">
-                <button class="navbar-toggle" id="navbarToggle">
+                <button class="navbar-toggle" id="navbarToggle" style="color: #07401f">
                     <i class="fas fa-bars"></i>
                 </button>
                 
-                <div class="navbar-menu">
-                    <a href="{{ route("inicio") }}">Inicio</a>
-                    <a href="{{ route("servicios") }}">Servicios</a>
-                    <a href="{{ route("somos") }}">Quiénes somos</a>
-                    <a href="{{ route("proyectos") }}">Proyectos</a>
-                </div>
-                <div class="cotizar">
-                    <a class="contact-link" href="">Contactanos</a>
-                    <a class="cotizar-link" href="">Cotizar aquí</a>
+                <div class="navbar-menu-wrapper" id="menuWrapper">
+                    <div class="navbar-menu">
+                        <a href="{{ route("inicio") }}">Inicio</a>
+                        <a href="{{ route("servicios") }}">Servicios</a>
+                        <a href="{{ route("somos") }}">Quiénes somos</a>
+                        <a href="{{ route("proyectos") }}">Proyectos</a>
+                    </div>
+                    <hr class="mobile-separator">
+                    <div class="cotizar">
+                        <a class="contact-link" href="">Contactanos</a>
+                        <a class="cotizar-link" href="">Cotizar aquí</a>
+                    </div>
                 </div>
             </div>
         </div>
