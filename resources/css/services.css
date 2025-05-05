@@ -1,5 +1,5 @@
 .services-container{
-    padding: 6rem 9rem;
+    padding: 6rem 0rem;
 }
 
 .services-prelude{
@@ -43,9 +43,41 @@
 .services{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: start;
     gap: 4rem;
+    background-color: #07401F;
+    padding: 6rem 8rem;
+}
+
+.service-titles{
+    width: 50%;
+}
+
+.service-titles-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #E7B109;
+    margin-bottom: 0;
+}
+
+.service-titles h2{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 12px 0px;
+}
+
+.service-titles-description{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.service-list{
+    width: 50%;
 }
 
 .service{
@@ -56,30 +88,39 @@
 }
 
 .service-content{
-    width: 50%;
-    padding: 3rem;
+    padding: 1rem 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.yellow-line{
+    margin-top: 0;
+    border: 1px solid #E7B109;
+    margin-bottom: 24px;
+    height: 1px;
+    background-color: #E7B109;
+    width: 100%;
+}
+
 .service-content h2{
     margin: 0;
     font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 18px;
+    line-height: 28px;
     color: #FFFFFF;
 }
 
 .service-content p{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 24px;
     color: #FFFFFF;
+    margin: 0;
 }
 
-.service-buttons{
-    margin-top: 42px;
+.service-prices{
+    margin-top: 24px;
     display: flex;
     justify-content: start;
     align-items: center;
