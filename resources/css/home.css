@@ -48,6 +48,7 @@
     cursor: pointer;
     padding: 16px 22px;
     width: 40%;
+    height: fit-content;
     font-weight:600;
     font-size: 18px;
     line-height: 28px;
@@ -60,7 +61,7 @@
     border: 0;
     cursor: pointer;
     padding: 16px 22px;
-    width: 30%;
+    width: 35%;
     font-weight:600;
     font-size: 18px;
     line-height: 28px;
@@ -248,11 +249,6 @@
     gap: 16px;
 }
 
-.question{
-    padding: 30px 34px;
-    position: relative;
-}
-
 .plus-icon{
     position: absolute;
     top: 37px;
@@ -276,8 +272,8 @@
     border-radius: 8px;
     margin-bottom: 12px;
     position: relative;
-    padding-left: 40px;
     width: 40rem;
+    padding: 30px 34px;
 }
 
 .question-answer{
@@ -285,5 +281,84 @@
     font-size: 16px;
     line-height: 24px;
     color: #475467;
+}
+
+@media (max-width: 769px) {
+    .home-container{
+        padding: 1.5rem;
+    }
+
+    .home-section{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .home-content{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        padding: 2rem 0rem 2rem 0rem;
+    }   
+    
+    .home-content-buttons{
+        flex-direction: column;
+    }
+
+    .projects-button{
+        width: 100%;
+    }
+
+    .cotizar-button{
+        width: 100%;
+    }
+
+    .home-image{
+        width: 100%;
+    }
+
+    .testimonial-title{
+        width: 100%;
+    }
+
+    .testimonial-title h2{
+        width: 100%;
+    }
+
+    .project-prelude-content{
+        flex-direction: column;
+    }
+
+    .project-prelude-content h3{
+        width: 100%;
+        padding: 0;
+    }
+
+    .projects {
+        grid-template-columns: 1fr; /* Solo una columna */
+        gap: 20px;
+    }
+    
+    .project-details {
+        grid-column: span 1;
+        width: 100%;
+    }
+    
+    .questions-section{
+        padding: 2rem 0rem;
+    }
+
+    .plus-icon {
+        left: auto;
+        right: 10px;
+        top: 40%;
+    }
+    
+    .question {
+        padding: 20px 40px 20px 12px;
+        width: 19rem;
+    }
+
 }
 
