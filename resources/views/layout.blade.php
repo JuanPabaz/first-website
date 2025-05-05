@@ -7,12 +7,17 @@
     <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     @vite('resources/css/layout.css')
+    @vite('resources/js/layout.js')
     <title>Vuotta</title>
 </head>
 <body>
     <header>
         <div class="navbar-container">
             <div class="navbar">
+                <button class="navbar-toggle" id="navbarToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
                 <div class="navbar-menu">
                     <a href="{{ route("inicio") }}">Inicio</a>
                     <a href="{{ route("servicios") }}">Servicios</a>
