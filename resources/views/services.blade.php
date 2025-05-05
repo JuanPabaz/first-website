@@ -92,5 +92,19 @@
             </div>
         </div>
     </div>
+    <div class="get-service">
+        <div class="get-service-content">
+            <h3>¡Cotiza ya!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ducimus perspiciatis quasi accusantium illo! Qui minus 
+                corporis sed iusto? Quae, suscipit! Impedit explicabo ad, 
+                ipsam soluta omnis vel temporibus obcaecati laudantium.
+            </p>
+        </div>
+        <div class="get-service-buttons">
+            <button class="know-more-button">Términos y condiciones</button>
+            <button class="cotizar-service-button">Cotizar</button>
+        </div>
+    </div>
 </div>
 @endsection
