@@ -149,3 +149,35 @@
     line-height: 24px;
     color: #475467;
 }
+
+@media(max-width:768px){
+    .us-title{
+        padding: 4rem 1rem;
+    }
+
+    .us-title-content{
+        width: 100%;
+    }
+
+    .us-subtitle{
+        margin-bottom: 12px;
+    }
+
+    .us-content{
+        padding: 4rem 1rem 5rem 1rem;
+    }
+
+    .features-section{
+        grid-template-columns: 1fr;
+    }
+
+    .who-are-we-prelude{
+        padding: 4rem 1rem 4rem 1rem;
+    }
+
+    .team{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+}
