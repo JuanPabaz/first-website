@@ -186,3 +186,49 @@
     gap: 12px;
 }
 
+
+@media(max-width: 768px){
+    .services-container{
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .services-prelude{
+        padding: 4rem 1rem;
+    }
+
+    .services{
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .service-titles{
+        width: 100%;
+    }
+
+    .service-list{
+        width: 100%;
+    }
+
+    .service-content{
+        padding: 1rem 0rem;
+    }
+
+    .get-service{
+        padding: 4rem 1rem;
+        flex-direction: column;
+    }
+
+    .get-service-content{
+        width: 100%;
+    }
+
+    .get-service-buttons{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cotizar-service-button{
+        width: 30%;
+    }
+}
