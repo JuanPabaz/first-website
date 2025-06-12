@@ -32,12 +32,16 @@ class ProjectController extends Controller
         //
     }
 
-    /**
-     * Display the specified resource.
-     */
+    public function list()
+    {
+        $projects = Project::orderBy('date', 'desc')->paginate(9);
+        return view('projects', compact('projects'));
+    }
+
     public function show(Project $project)
     {
-        //
+        $project->load('images'); // carga las imágenes relacionadas
+        return view('project-view', compact('project'));
     }
 
     /**

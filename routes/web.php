@@ -17,6 +17,8 @@ Route::get('/us', function () {
     return view('us');
 })->name("somos");
 
-Route::get('/projects', function () {
-    return view('projects');
-})->name("proyectos");
+Route::get('/projects', [ProjectController::class, 'list'])->name("proyectos");
+
+Route::get('/projects/{project}', [ProjectController::class, 'show'])->name("proyectos.detalle");
+
+

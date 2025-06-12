@@ -10,4 +10,9 @@ class Project extends Model
     {
         return self::orderBy('date', 'desc')->take($count)->get();
     }
+
+    public function images()
+    {
+        return $this->hasMany(Image::class);
+    }
 }
