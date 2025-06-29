@@ -63,6 +63,10 @@
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+.know-project{
+    padding: 0 9rem;
+}
+
 /* Estilos para el carrusel */
 .carousel {
     margin: 0 9rem 2rem 9rem;

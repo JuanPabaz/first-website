@@ -15,6 +15,7 @@
         <img src="{{ asset('images/' . $project->img) }}" alt="{{ $project->name }}">
     </div>
 
+    <h2 class="know-project">Conoce el proyecto</h2>
     @if ($project->images->count())
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">

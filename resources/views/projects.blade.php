@@ -21,7 +21,7 @@
         <div class="project-details">
             <img src="{{ asset('images/' . $project->img) }}" alt="{{ $project->name }}">
             <p class="project-date">{{ \Carbon\Carbon::parse($project->date)->format('d M Y') }}</p>
-            <a href="{{ route('proyectos.detalle', $project->id) }}">{{ $project->name }}</a>
+            <a href="{{ route('proyectos.detalle', $project->id) }}" class="project-name">{{ $project->name }}</a>
             <p class="project-description">
                 {{ $project->description }}
             </p>
@@ -30,7 +30,8 @@
     </div>
     <hr style="margin: 0 9rem; background-color: #EAECF0">    
     <div class="paginator">
-        {{ $projects->links() }}
+        {{ $projects->links('pagination::bootstrap-4') }}
     </div>
+
 </div>
 @endsection
