@@ -12,6 +12,41 @@
     z-index: 1;
 }
 
+/* Agregar esto al archivo project-view.css */
+.back-button-container {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #e7b109;
+    color: #07401F;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.back-button:hover {
+    background-color: #07401F;
+    color: #e7b109;
+    border-color: #e7b109;
+}
+
+.back-button svg {
+    transition: transform 0.3s ease;
+}
+
+.back-button:hover svg {
+    transform: translateX(-3px);
+}
+
 .main-image {
     gap: 30px;
     padding: 0rem 9rem 2rem 9rem;
@@ -82,7 +117,7 @@
 
 .carousel-item img {
     width: 100%;
-    height: 500px;
+    height: 700px;
     object-fit: cover;
 }
 
@@ -113,7 +148,7 @@
 /* Estilos para la descripción del proyecto */
 .project-description {
     padding: 0 9rem 4rem 9rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     color: #333;
     text-align: justify;

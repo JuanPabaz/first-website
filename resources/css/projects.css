@@ -145,6 +145,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .paginator{
@@ -154,22 +159,45 @@
     align-items: center;
 }
 
-.pages{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.page-item {
+    margin: 0;
 }
 
-.page-number{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%;
-    cursor: pointer;
+.page-link {
+    color: #07401F !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 1px solid #D0D5DD;
+    background-color: white;
 }
 
-.page-number:hover{
-    background-color: #F9FAFB;
+.page-link:hover {
+    background-color: #316e43 !important;
+    color: #ffffff !important;
+    border-color: #07401F;
+}
+
+.page-item.active .page-link {
+    background-color: #07401F;
+    color: white !important;
+    border-color: #07401F;
+}
+
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    width: auto;
+    color: #07401F;
+}
+
+
+.page-item.disabled .page-link {
+    color: #D1D5DB;
+    border-color: #D1D5DB;
+}
+
+
+.page-item:not(.disabled) .page-link:hover {
+    background-color: #07401F;
+    color: white;
 }
