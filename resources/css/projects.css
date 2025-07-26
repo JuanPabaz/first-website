@@ -47,6 +47,7 @@
 .inputs{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
     width: 100%;
 }
@@ -69,7 +70,7 @@
     border: 0;
     cursor: pointer;
     padding: 12px 18px;
-    width: 40%;
+    width: 80%;
     height: 48px;
     font-weight:600;
     font-size: 16px;

@@ -8,10 +8,12 @@
             <p class="us-subtitle">Quiénes somos</p>
             <h1 class="us-title-title">SOMOS VUOTTA</h1>
             <p class="us-title-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati soluta distinctio animi alias, in eaque 
-                laudantium rem natus placeat ipsa cumque quo error sequi. 
-                Eveniet nesciunt possimus nam fugiat id!
+                Somos un estudio de arquitectura dedicado a diseñar y construir espacios
+                únicos, llenos de creatividad, innovación y confort. Creemos en crear
+                ambientes que cuentan historias y reflejan la visión de nuestros clientes.
+                Además, ofrecemos un acompañamiento integral desde el inicio hasta la
+                finalización del proyecto, garantizando calidad, durabilidad y un
+                compromiso total con cada uno de nuestros clientes.
             </p>
         </div>
     </div>
@@ -57,12 +59,6 @@
         <div class="who-are-we-prelude">
             <p class="who-are-we-prelude-subtitle">Quiénes somos</p>
             <h2 class="who-are-we-prelude-title">Conoce nuestro equipo</h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Quasi ab corporis, et eligendi atque vero explicabo, 
-                aliquid quod architecto natus quia iusto facere animi 
-                dolorum porro totam, rem sit nihil!
-            </p>
         </div>
         <div class="team">
             <div class="team-member">
@@ -83,32 +79,6 @@
                 <div class="team-member-details">
                     <h4 class="team-member-name">Camilo</h4>
                     <p class="team-member-role">Arquitecto diseñador</p>
-                    <p class="team-member-studies">Arquitecta UPB - CEO de Vuotta</p>
-                    <div class="social-media">
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-dribbble"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="team-member">
-                <img src="{{ asset('images/miembro3.png') }}" alt="">
-                <div class="team-member-details">
-                    <h4 class="team-member-name">Sebastián</h4>
-                    <p class="team-member-role">Carpintero LUMAM</p>
-                    <p class="team-member-studies">Arquitecta UPB - CEO de Vuotta</p>
-                    <div class="social-media">
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-dribbble"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="team-member">
-                <img src="{{ asset('images/miembro4.png') }}" alt="">
-                <div class="team-member-details">
-                    <h4 class="team-member-name">Diegoi</h4>
-                    <p class="team-member-role">Carpintero LUMAM</p>
                     <p class="team-member-studies">Arquitecta UPB - CEO de Vuotta</p>
                     <div class="social-media">
                         <i class="fa-brands fa-x-twitter"></i>
