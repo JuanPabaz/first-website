@@ -6,9 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
-    public static function latestProjects($count = 3)
+    public static function latestProjects($count = 6)
     {
-        return self::orderBy('date', 'desc')->take($count)->get();
+        return self::where('tipo', 'Destacado')
+            ->take($count)
+            ->get();
+
     }
 
     public function images()

@@ -12,8 +12,8 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        $project = Project::latestProjects();
-        return view('home', compact('project'));
+        $projects = Project::latestProjects();
+        return view('home', compact('projects'));
     }
 
     /**
