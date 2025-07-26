@@ -45,5 +45,31 @@ document.addEventListener('DOMContentLoaded', function () {
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
     }, 10000);
+
+        const projectSlides = document.querySelectorAll('.projects-slide');
+    const projectDots = document.querySelectorAll('.projects-section .dot');
+    let currentProjectSlide = 0;
+    
+    function showProjectSlide(index) {
+        projectSlides.forEach(slide => slide.classList.remove('active'));
+        projectDots.forEach(dot => dot.classList.remove('active'));
+        
+        projectSlides[index].classList.add('active');
+        projectDots[index].classList.add('active');
+        currentProjectSlide = index;
+    }
+    
+    projectDots.forEach(dot => {
+        dot.addEventListener('click', function() {
+            const slideIndex = parseInt(this.getAttribute('data-slide'));
+            showProjectSlide(slideIndex);
+        });
+    });
+    
+    // Auto-avance cada 8 segundos
+    setInterval(() => {
+        currentProjectSlide = (currentProjectSlide + 1) % projectSlides.length;
+        showProjectSlide(currentProjectSlide);
+    }, 10000);
 });
 

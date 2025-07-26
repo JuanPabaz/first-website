@@ -76,17 +76,32 @@
             </div>
         </div>
     </div>
-    <div class="projects">
-        @foreach($project as $project)
-        <div class="project-details">
-            <img src="{{ asset('images/' . $project->img) }}" alt="{{ $project->name }}">
-            <p class="project-date">{{ \Carbon\Carbon::parse($project->date)->format('d M Y') }}</p>
-            <a href="{{ route('proyectos.detalle', $project->id) }}" class="project-title">{{ $project->name }}</a>
-            <p class="project-description">
-                {{ $project->description }}
-            </p>
+    <div class="projects-section">
+        <div class="projects-carousel">
+            @for($i = 0; $i < count($projects); $i += 3)
+                <div class="projects-slide {{ $i == 0 ? 'active' : '' }}">
+                    <div class="projects-row">
+                        @foreach($projects->slice($i, 3) as $project)
+                            <div class="project-details">
+                                <img src="{{ asset('images/' . $project->img) }}" alt="{{ $project->name }}">
+                                <p class="project-date">{{ \Carbon\Carbon::parse($project->date)->format('d M Y') }}</p>
+                                <a href="{{ route('proyectos.detalle', $project->id) }}" class="project-title">{{ $project->name }}</a>
+                                <p class="project-description">
+                                    {{ $project->description }}
+                                </p>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            @endfor
         </div>
-        @endforeach
+        
+        <!-- Puntos de navegación -->
+        <div class="carousel-dots">
+            @for($i = 0; $i < ceil(count($projects)/3); $i++)
+                <span class="dot {{ $i == 0 ? 'active' : '' }}" data-slide="{{ $i }}"></span>
+            @endfor
+        </div>
     </div>
     <div class="questions-section">
         <div class="questions-section-title">
