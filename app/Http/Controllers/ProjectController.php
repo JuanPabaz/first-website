@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Project;
+use App\Models\ProjectType;
 use Illuminate\Http\Request;
 
 class ProjectController extends Controller
@@ -34,8 +35,20 @@ class ProjectController extends Controller
 
     public function list()
     {
-        $projects = Project::orderBy('date', 'desc')->paginate(9);
-        return view('projects', compact('projects'));
+        $types = ProjectType::all();
+        $selectedType = request()->input('type');
+        
+        $query = Project::query()->with('type');
+        
+        if ($selectedType) {
+            $query->whereHas('type', function($q) use ($selectedType) {
+                $q->where('id', $selectedType);
+            });
+        }
+        
+        $projects = $query->orderBy('date', 'desc')->paginate(9);
+        
+        return view('projects', compact('projects', 'types', 'selectedType'));
     }
 
     public function show(Project $project)
