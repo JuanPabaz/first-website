@@ -136,7 +136,7 @@
             <p>
                 Ya diste el primer paso y llegaste hasta aquí. Ahora atrévete a hacer tu sueño realidad y 
                 ponte en contacto con nosotros. Estamos listos para acompañarte en cada etapa del proceso.
-                <a href="">Terminos y condiciones</a>
+                <a href="{{ asset('pdf/TERMINOS Y CONDICIONES.pdf') }}" target="_blank" rel="noopener noreferrer">Terminos y condiciones</a>
             </p>
         </div>
         <div class="get-service-buttons">

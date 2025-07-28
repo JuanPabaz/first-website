@@ -116,8 +116,6 @@ header {
     text-decoration: none;
     padding: 10px 16px;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
 }
 
 main {
