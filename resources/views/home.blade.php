@@ -59,7 +59,6 @@
             </div>
         </div>
         
-        <!-- Puntos de navegación -->
         <div class="carousel-dots">
             <span class="dot active" data-slide="0"></span>
             <span class="dot" data-slide="1"></span>
@@ -96,7 +95,6 @@
             @endfor
         </div>
         
-        <!-- Puntos de navegación -->
         <div class="carousel-dots">
             @for($i = 0; $i < ceil(count($projects)/3); $i++)
                 <span class="dot {{ $i == 0 ? 'active' : '' }}" data-slide="{{ $i }}"></span>
