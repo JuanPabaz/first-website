@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
 
+Route::redirect('/', '/home');
+
 Route::get('/', function () {
     return view('layout');
 });

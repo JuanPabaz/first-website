@@ -164,6 +164,10 @@
         padding: 4rem 1rem;
     }
 
+    .us-title-title{
+        text-align: center;
+    }
+
     .us-title-content{
         width: 100%;
     }

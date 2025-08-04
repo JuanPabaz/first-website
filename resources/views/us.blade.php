@@ -40,7 +40,7 @@
                         y diseño para quienes sueñan con transformar sus espacios, 
                         posicionándonos como una marca reconocida por su 
                         profesionalismo, cercanía y capacidad de hacer realidad 
-                        los sueños a través del diseño.
+                        los sueños a través del diseño y la construcción.
                     </p>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <h3>Nuestra esencia</h3>
                     <p>
                         Somos un equipo joven, apasionado y con experiencia, 
-                        que durante más de 3 años ha trabajado para transformar 
+                        que durante más de 4 años ha trabajado para transformar 
                         ideas en lugares reales, funcionales y llenos de identidad.
                     </p>
                 </div>
@@ -67,11 +67,11 @@
                     <h4 class="team-member-name">Kathe</h4>
                     <p class="team-member-role">Arquitecta residente de Obra</p>
                     <p class="team-member-studies">Arquitecta UPB - CEO de Vuotta</p>
-                    <div class="social-media">
+                    <!-- <div class="social-media">
                         <i class="fa-brands fa-x-twitter"></i>
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-dribbble"></i>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="team-member">
@@ -79,12 +79,12 @@
                 <div class="team-member-details">
                     <h4 class="team-member-name">Camilo</h4>
                     <p class="team-member-role">Arquitecto diseñador</p>
-                    <p class="team-member-studies">Arquitecta UPB - CEO de Vuotta</p>
-                    <div class="social-media">
+                    <p class="team-member-studies">Arquitecta Colegio Mayor - CEO de Vuotta</p>
+                    <!-- <div class="social-media">
                         <i class="fa-brands fa-x-twitter"></i>
                         <i class="fa-brands fa-linkedin"></i>
                         <i class="fa-brands fa-dribbble"></i>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

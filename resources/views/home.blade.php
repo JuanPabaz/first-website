@@ -6,7 +6,7 @@
 <div class="home-container">
     <div class="home-section">
         <div class="home-content">
-            <h1>Transformamos espacios, creamos sueños.</h1>
+            <img class="main-title" src="{{ asset('images/main-title1.png') }}" alt="main-title.png">
             <p>Nuestro equipo convierte tus ideas en espacios funcionales, 
                 estéticos y bien pensados, acompañándote en cada etapa del proceso. 
                 Si buscas renovar, construir o reimaginar un espacio, estamos aquí 
@@ -15,13 +15,15 @@
             <div class="home-content-buttons">
                 <button class="projects-button">
                     <i class="fa-regular fa-circle-play"></i>
-                    Proyectos 360
+                    <a href="https://kuula.co/profile/VuottaArquitectura/collections" target="_blank" style="text-decoration: none; color: #344054">
+                        Proyectos 360
+                    </a>
                 </button>
                 <button class="cotizar-button">¡Quiero cotizar!</button>
             </div>
         </div>
         <div class="home-image">
-            <img src="{{ asset('images/project-vuotta.jpeg') }}" alt="">
+            <img src="{{ asset('images/main-project.png') }}" alt="main-image.jpeg">
         </div>
     </div>
     <div class="testimonial-section">
@@ -83,7 +85,6 @@
                         @foreach($projects->slice($i, 3) as $project)
                             <div class="project-details">
                                 <img src="{{ asset('images/' . $project->img) }}" alt="{{ $project->name }}">
-                                <p class="project-date">{{ \Carbon\Carbon::parse($project->date)->format('d M Y') }}</p>
                                 <a href="{{ route('proyectos.detalle', $project->id) }}" class="project-title">{{ $project->name }}</a>
                                 <p class="project-description">
                                     {{ $project->description }}
@@ -101,7 +102,7 @@
             @endfor
         </div>
     </div>
-    <div class="questions-section">
+    <div class="questions-section" id="preguntas-frecuentes">
         <div class="questions-section-title">
             <h5>Preguntas frecuentes</h5>
         </div>

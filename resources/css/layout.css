@@ -132,8 +132,8 @@ footer {
 }
 
 .footer-container {
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1573px;
 }
 
 .footer-columns {
@@ -156,7 +156,7 @@ footer {
 }
 
 .footer-logo {
-    width: 150px;
+    width: 200px;
     height: auto;
     margin-bottom: 1.5rem;
 }
@@ -237,10 +237,45 @@ footer {
     gap: 0.8rem;
 }
 
+.contact-details a.footer-link {
+    display: block;
+    color: inherit; /* Mantiene el color del texto igual que los <p> */
+    text-decoration: none;
+    margin: 0 0 1rem 0; /* Mismo margen que los <p> adyacentes */
+    transition: color 0.3s ease;
+}
+
+.contact-details a.footer-link:hover {
+    color: #e7b109; /* Color amarillo al hacer hover, como en tu paleta */
+}
+
+.contact-details a.footer-link i {
+    margin-right: 0.5rem; /* Espacio entre el ícono y el texto */
+}
+
 .contact-details i {
     width: 20px;
     text-align: center;
     color: #e7b109;
+}
+
+.instagram-link {
+    color: #FFFFFF; /* Color verde de tu paleta */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 16px;
+}
+
+.instagram-link:hover {
+    color: #e7b109; /* Color amarillo al hacer hover */
+}
+
+.instagram-link i {
+    font-size: 1.2rem;
 }
 
 .navbar-toggle {

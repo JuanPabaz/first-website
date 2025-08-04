@@ -43,16 +43,20 @@
             <div class="footer-columns">
                 <!-- Columna 1: Logo -->
                 <div class="footer-col footer-col-logo">
-                    <img src="{{ asset('images/vuotta-logo.png') }}" alt="Vuotta Arquitectura" class="footer-logo">
-                    <p class="footer-copyright">© 2024 Vuotta Arquitectura<br>Todos los derechos reservados</p>
+                    <img src="{{ asset('images/logos vuotta_verde.jpg') }}" alt="Vuotta Arquitectura" class="footer-logo">
+                    <p class="footer-copyright">© 2021 Vuotta Arquitectura<br>Todos los derechos reservados</p>
                 </div>
                 
                 <!-- Columna 2: Título y botones -->
-                <div class="footer-col footer-col-main">
+                <div class="footer-col">
                     <h6>Creemos sueños juntos</h6>
                     <p>Escríbenos y cotiza este proyecto</p>
                     <div class="footer-content-buttons">
-                        <button class="visualization-button">Visualización 360</button>
+                        <button class="visualization-button">
+                            <a href="https://kuula.co/profile/VuottaArquitectura/collections" target="_blank" style="text-decoration: none; color: #344054">
+                                Proyectos 360
+                            </a>
+                        </button>
                         <button class="cotizar-footer-button">¡Quiero cotizar!</button>
                     </div>
                 </div>
@@ -62,8 +66,10 @@
                     <div class="contact-details">
                         <h5>Contacto</h5>
                         <p><i class="fas fa-phone"></i> +57 302 374 3946</p>
-                        <p><i class="fab fa-instagram"></i> @vuotta.arq</p>
-                        <p><i class="fas fa-envelope"></i> gerencia@vuottaarg.com</p>
+                        <a href="https://www.instagram.com/vuotta.arq" target="_blank" class="instagram-link">
+                            <i class="fab fa-instagram"></i> Vuotta Arquitectura
+                        </a>
+                        <p><i class="fas fa-envelope"></i> gerencia@vuottaarq.com</p>
                         <p><i class="fas fa-map-marker-alt"></i> Medellín, Colombia</p>
                     </div>
                 </div>
@@ -72,10 +78,18 @@
                 <div class="footer-col">
                     <div class="contact-details">
                         <h5>Recursos</h5>
-                        <p><i class="fas fa-file-alt"></i> Términos y condiciones</p>
-                        <p><i class="fas fa-question-circle"></i> Preguntas frecuentes</p>
-                        <p><i class="fas fa-hammer"></i> Servicios</p>
-                        <p><i class="fas fa-building"></i> Proyectos</p>
+                        <a href="{{ asset('pdf/TERMINOS Y CONDICIONES.pdf') }}" target="_blank" rel="noopener noreferrer" class="footer-link">
+                            <i class="fas fa-file-alt"></i> Términos y condiciones
+                        </a>
+                        <a href="{{ route('inicio') }}#preguntas-frecuentes" class="footer-link">
+                            <i class="fas fa-question-circle"></i> Preguntas frecuentes
+                        </a>
+                        <a href="{{ route('servicios') }}" class="footer-link">
+                            <i class="fas fa-hammer"></i> Servicios
+                        </a>
+                        <a href="{{ route('proyectos') }}" class="footer-link">
+                            <i class="fas fa-building"></i> Proyectos
+                        </a>
                     </div>
                 </div>
             </div>

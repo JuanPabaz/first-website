@@ -36,7 +36,6 @@
         @forelse($projects as $project)
         <div class="project-details">
             <img src="{{ asset('images/' . $project->img) }}" alt="{{ $project->name }}">
-            <p class="project-date">{{ \Carbon\Carbon::parse($project->date)->format('d M Y') }}</p>
             <a href="{{ route('proyectos.detalle', $project->id) }}" class="project-name">{{ $project->name }}</a>
             @if($project->type)
                 <span class="project-type">{{ $project->type->nombre }}</span>

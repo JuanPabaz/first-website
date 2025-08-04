@@ -2,14 +2,9 @@
 @extends('layout')
 @section('content')
 <div class="services-container">
-    <div class="services-prelude">
-        <div class="service-prelude-title">
-            <h1>Inicia tu sueño</h1>
-        </div>
-    </div>
     <div class="services">
         <div class="service-titles">
-            <img src="{{ asset('images/img-service-title1.png') }}" alt="" class="service-title-img">
+            <img src="{{ asset('images/img-service-title.png') }}" alt="" class="service-title-img">
         </div>
         <div class="service-list">
             <div class="service">
@@ -107,14 +102,14 @@
                     </p>
                     <div class="service-prices">
                         <i class="fa-regular fa-clock" style="color: #FFFFFF"></i>
-                        <p></p>
+                        <p>Según alcance del proyecto</p>
                     </div>
                 </div>
             </div>
             <div class="service">
                 <div class="service-content">
                     <hr class="yellow-line">
-                    <h2 class="service-title">Renderización y modelado 3D</h2>
+                    <h2 class="service-title">Costos y presupuestos de obra</h2>
                     <p>
                         ¿Ya diseñaste tu proyecto pero necesitas saber cuánto cuesta llevarlo a la realidad? 
                         Elaboramos presupuestos detallados con base en las especificaciones del diseño. 
@@ -124,7 +119,30 @@
                     </p>
                     <div class="service-prices">
                         <i class="fa-regular fa-clock" style="color: #FFFFFF"></i>
-                        <p></p>
+                        <p>Según alcance del proyecto</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-content">
+                    <hr class="yellow-line">
+                    <h2 class="service-title">Ejecución de obra</h2>
+                    <p>
+                        En VUOTTA llevamos tu proyecto del plano a la realidad. Ejecutamos todo tipo de obras, desde 
+                        construcciones nuevas hasta remodelaciones parciales o integrales, sin importar la escala. 
+                        Trabajamos con equipos técnicos y operativos calificados, garantizando calidad en la 
+                        construcción, cumplimiento en los tiempos y atención al detalle en cada etapa del proceso.
+                        <br>
+                        Nos encargamos de coordinar todos los aspectos constructivos, desde la planeación hasta 
+                        la entrega final, asegurando que el resultado esté alineado con el diseño y tus expectativas.
+                        <br>
+                        Y si ya tienes tu obra terminada, pero sientes que algo falta, también ofrecemos un servicio 
+                        de acompañamiento en decoración para ayudarte a resaltar el potencial de tus espacios y 
+                        darles ese toque final que marca la diferencia.
+                    </p>
+                    <div class="service-prices">
+                        <i class="fa-regular fa-clock" style="color: #FFFFFF"></i>
+                        <p>Según alcance del proyecto</p>
                     </div>
                 </div>
             </div>
