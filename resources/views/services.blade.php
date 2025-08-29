@@ -4,7 +4,7 @@
 <div class="services-container">
     <div class="services">
         <div class="service-titles">
-            <img src="{{ asset('images/img-service-title.png') }}" alt="" class="service-title-img">
+            <img src="{{ asset('images/img-service-title.webp') }}" alt="" class="service-title-img">
         </div>
         <div class="service-list">
             <div class="service">
