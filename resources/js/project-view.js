@@ -1,12 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Inicializar el carrusel
-    const carousel = new bootstrap.Carousel(document.getElementById('imageCarousel'), {
-        interval: 5000, // Cambia de imagen cada 5 segundos
-        pause: 'hover', // Pausa al pasar el ratón
-        wrap: true // Vuelve al principio después de la última imagen
-    });
+    // Inicializar ambos carruseles
+    const carousels = document.querySelectorAll('.carousel');
+    
+    carousels.forEach((carouselElement) => {
+        const carousel = new bootstrap.Carousel(carouselElement, {
+            interval: 5000,
+            pause: 'hover',
+            wrap: true
+        });
 
-    // Opcional: Añadir animación de fade
-    const carouselInner = document.querySelector('.carousel-inner');
-    carouselInner.style.transition = 'opacity 0.5s ease';
+        // Opcional: Añadir animación de fade a cada carrusel
+        const carouselInner = carouselElement.querySelector('.carousel-inner');
+        if (carouselInner) {
+            carouselInner.style.transition = 'opacity 0.5s ease';
+        }
+    });
 });
