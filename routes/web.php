@@ -5,10 +5,6 @@ use App\Http\Controllers\ProjectController;
 
 Route::redirect('/', '/home');
 
-Route::get('/', function () {
-    return view('layout');
-});
-
 Route::get('/home', [ProjectController::class, 'index'])->name("inicio");
 
 Route::get('/services', function () {
