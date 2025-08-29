@@ -62,6 +62,7 @@
     font-size: 48px;
     line-height: 60px;
     color: #e7b109;
+    text-align: center;
 }
 
 .project-subtitle{
@@ -114,9 +115,6 @@
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-#imageCarousel {
     width: 50%; /* Ocupa la mitad del ancho */
     max-width: 800px; /* Opcional: establece un ancho máximo */
     margin: 0 auto; /* Centrado adicional por si acaso */
@@ -159,11 +157,15 @@
 
 /* Estilos para la descripción del proyecto */
 .project-description {
-    padding: 0 9rem 4rem 9rem;
+    padding: 0 9rem 2rem 9rem;
     font-size: 1.1rem;
     line-height: 1.6;
     color: #333;
     text-align: justify;
+}
+
+.branding{
+    padding: 0 0rem 4rem 0rem;
 }
 
 @media (max-width: 769px) {
@@ -183,7 +185,7 @@
         padding: 0rem 1.5rem 2rem 1.5rem;
     }
 
-    #imageCarousel {
+    .carousel {
         width: 100%;
     }
 

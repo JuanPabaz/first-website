@@ -127,9 +127,10 @@
 
 
 .team-member img{
-    width: 96px;
-    height: 96px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .team-member-details{

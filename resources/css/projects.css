@@ -318,7 +318,7 @@
     }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 500px) {
     .project-header{
         padding: 6rem 1.5rem;
     }
