@@ -12,4 +12,10 @@ class Image extends Model
     {
         return $this->belongsTo(Project::class);
     }
+
+    public function branding()
+    {
+        return $this->belongsTo(Branding::class);
+    }
+
 }
