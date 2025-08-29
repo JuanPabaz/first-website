@@ -6,7 +6,7 @@
 <div class="home-container">
     <div class="home-section">
         <div class="home-content">
-            <img class="main-title" src="{{ asset('images/main-title1.png') }}" alt="main-title.png">
+            <img class="main-title" src="{{ asset('images/main-title1.webp') }}" alt="main-title.png">
             <p>Nuestro equipo convierte tus ideas en espacios funcionales, 
                 estéticos y bien pensados, acompañándote en cada etapa del proceso. 
                 Si buscas renovar, construir o reimaginar un espacio, estamos aquí 
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="home-image">
-            <img src="{{ asset('images/main-project.png') }}" alt="main-image.jpeg">
+            <img src="{{ asset('images/main-project.webp') }}" alt="main-image.jpeg">
         </div>
     </div>
     <div class="testimonial-section">
@@ -32,7 +32,7 @@
             <div class="testimonial-slide active">
                 <div class="testimonial-content">
                     <div class="testimonial-details">
-                        <img src="{{ asset('images/testimonio1.JPG') }}" alt="Valentina - Restaurante La Ardilla">
+                        <img src="{{ asset('images/testimonio1.webp') }}" alt="Valentina - Restaurante La Ardilla">
                         <div class="person-details">
                             <p class="person-name">Valentina</p>
                             <p class="person-review">Gerente Restaurante La Ardilla</p>
@@ -48,7 +48,7 @@
             <div class="testimonial-slide">
                 <div class="testimonial-content">
                     <div class="testimonial-details">
-                        <img src="{{ asset('images/testimonio3.PNG') }}" alt="Laura Durango">
+                        <img src="{{ asset('images/testimonio3.webp') }}" alt="Laura Durango">
                         <div class="person-details">
                             <p class="person-name">Laura Durango</p>
                             <p class="person-review">Ceo Cejas Laura Durango</p>
