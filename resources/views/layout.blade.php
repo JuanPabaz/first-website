@@ -43,7 +43,7 @@
             <div class="footer-columns">
                 <!-- Columna 1: Logo -->
                 <div class="footer-col footer-col-logo">
-                    <img src="{{ asset('images/logos vuotta_verde.jpg') }}" alt="Vuotta Arquitectura" class="footer-logo">
+                    <img src="{{ asset('images/logos vuotta_verde.webp') }}" alt="Vuotta Arquitectura" class="footer-logo">
                     <p class="footer-copyright">© 2021 Vuotta Arquitectura<br>Todos los derechos reservados</p>
                 </div>
                 
