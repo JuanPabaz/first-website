@@ -53,7 +53,9 @@ class ProjectController extends Controller
 
     public function show(Project $project)
     {
-        $project->load('images'); // carga las imágenes relacionadas
+        // Cargamos imágenes del proyecto + branding con sus imágenes
+        $project->load(['images', 'branding.images']);
+
         return view('project-view', compact('project'));
     }
 

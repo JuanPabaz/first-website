@@ -19,6 +19,12 @@ class Project extends Model
         return $this->hasMany(Image::class);
     }
 
+    public function branding()
+    {
+        return $this->hasOne(Branding::class);
+    }
+
+
     public function type()
     {
         return $this->belongsTo(ProjectType::class, 'project_type_id');
