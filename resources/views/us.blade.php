@@ -62,7 +62,7 @@
         </div>
         <div class="team">
             <div class="team-member">
-                <img src="{{ asset('images/miembro1.png') }}" alt="">
+                <img src="{{ asset('images/integrante2.webp') }}" alt="">
                 <div class="team-member-details">
                     <h4 class="team-member-name">Kathe</h4>
                     <p class="team-member-role">Arquitecta residente de Obra</p>
@@ -75,11 +75,11 @@
                 </div>
             </div>
             <div class="team-member">
-                <img src="{{ asset('images/miembro2.png') }}" alt="">
+                <img src="{{ asset('images/integrante1.webp') }}" alt="">
                 <div class="team-member-details">
                     <h4 class="team-member-name">Camilo</h4>
                     <p class="team-member-role">Arquitecto diseñador</p>
-                    <p class="team-member-studies">Arquitecta Colegio Mayor - CEO de Vuotta</p>
+                    <p class="team-member-studies">Arquitecta Colegio Mayor de Antioquia - CEO de Vuotta</p>
                     <!-- <div class="social-media">
                         <i class="fa-brands fa-x-twitter"></i>
                         <i class="fa-brands fa-linkedin"></i>
