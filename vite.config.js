@@ -9,6 +9,7 @@ export default defineConfig({
                 'resources/css/home.css','resources/css/layout.css',
                 'resources/css/project-view.css', 'resources/css/projects.css',
                 'resources/css/services.css','resources/css/us.css',
+                'resources/css/admin.css',
                 'resources/js/bootstrap.js', 'resources/js/home.js',
                 'resources/js/layout.js', 'resources/js/project-view.js'
             ],

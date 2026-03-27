@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
+    protected $fillable = ['name', 'date', 'description', 'img', 'tipo', 'project_type_id'];
+
     public static function latestProjects($count = 6)
     {
         return self::where('tipo', 'Destacado')
