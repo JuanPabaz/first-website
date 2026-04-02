@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\Admin\AuditLogController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\ProjectAdminController;
 
@@ -46,6 +47,8 @@ $adminRoutes = function () {
 
         Route::delete('/projects/{project}/branding/images/{image}', [ProjectAdminController::class, 'destroyBrandingImage'])
             ->name('admin.projects.branding.images.destroy');
+
+        Route::get('/audit', [AuditLogController::class, 'index'])->name('admin.audit.index');
     });
 };
 

@@ -24,6 +24,11 @@
                 <i class="fas fa-building"></i>
                 Proyectos
             </a>
+            <p class="nav-section-title" style="margin-top:16px;">Sistema</p>
+            <a href="{{ route('admin.audit.index') }}" class="nav-link {{ request()->routeIs('admin.audit.*') ? 'active' : '' }}">
+                <i class="fas fa-history"></i>
+                Auditoría
+            </a>
         </nav>
 
         <div class="sidebar-footer">
